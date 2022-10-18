@@ -1,3 +1,198 @@
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "lato", sans-serif;
+  }
+
+  header {
+    background-color: #272a31;
+  }
+
+  .lists {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    color: #fff;
+    margin-right: 13%;
+    gap: 2.76%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .social-media {
+    color: #fff;
+    /* font-size: 20px; */
+    text-decoration: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 13%;
+    padding-left: 13%;
+    align-items: center;
+    margin-top: 0;
+    /* background-color: #d3d3d3; */
+  }
+
+  .logo > img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .navi-menu {
+    display: flex;
+    gap: 50px;
+  }
+
+  .navi-link {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .main-desk {
+    padding-top: 5px;
+    padding-bottom: 100px;
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hello,
+  .main-header {
+    color: #ec5242;
+    margin-left: 13%;
+    margin-right: 13%;
+    border: 1px solid #d3d3d3;
+  }
+
+  .hello {
+    font-size: 25px;
+    margin-top: 80px;
+  }
+
+  .main-header {
+    font-size: 45px;
+  }
+
+  .info,
+  .time {
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+
+  .info {
+    font-size: 25px;
+    color: #d3d3d3;
+    border: 1px solid #d3d3d3;
+  }
+
+  .interval {
+    font-size: 33px;
+  }
+
+  .place {
+    font-size: 25px;
+  }
+
+  .place,
+  .interval {
+    color: #d3d3d3;
+  }
+
+  .visit {
+    border: 1px solid #d3d3d3;
+    background-color: #272a31;
+    color: #d3d3d3;
+    padding-bottom: 70px;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 75px;
+    font-size: 33px;
+  }
+
+  .break {
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px solid #ec5242;
+    margin-bottom: 50px;
+  }
+
+  .full-information {
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 70px;
+    gap: 10px;
+  }
+
+  .cultural {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    /* margin-right: 10px; */
+    background-color: #d3d3d3;
+    gap: 10px;
+    color: #272a31;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .cultural:hover {
+    transform: scale(1.1);
+    border: 2px solid #fff;
+  }
+
+  .cultural > img {
+    max-width: 100%;
+    height: 150px;
+  }
+
+  .experience-heading {
+    margin-left: 15px;
+    color: #ec5242;
+    margin-right: 2px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .experience-detail {
+    padding: 5px;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .join-desk {
+    margin-top: 30px;
+    color: #d3d3d3;
+    text-align: center;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .join-desk:hover {
+    background-color: #d3d3d3;
+    color: #ec5242;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   body {
     margin: 0;
@@ -145,7 +340,7 @@
     border: 1px solid #d3d3d3;
     background-color: #272a31;
     color: #d3d3d3;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
   }
 
   .title {
@@ -161,6 +356,10 @@
     margin-bottom: 50px;
   }
 
+  .full-information {
+    margin-bottom: 75px;
+  }
+
   .cultural {
     display: grid;
     grid-template-columns: 28% 25% 47%;
@@ -168,6 +367,12 @@
     margin-left: 20px;
     margin-right: 10px;
     background-color: gray;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .cultural:hover {
+    transform: scale(1.1);
+    border: 2px solid #fff;
   }
 
   .cultural > img {
@@ -189,8 +394,12 @@
     margin: 0;
   }
 
+  .join-desk {
+    display: none;
+  }
+
   .join {
-    margin-top: 30px;
+    /* margin-top: 100px; */
     color: #d3d3d3;
     background: #ec5242;
     text-align: center;
