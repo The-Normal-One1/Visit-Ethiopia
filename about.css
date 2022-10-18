@@ -1,3 +1,288 @@
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "lato", sans-serif;
+  }
+
+  header {
+    background-color: #272a31;
+  }
+
+  .lists {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    color: #fff;
+    margin-right: 13%;
+    gap: 2.76%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .social-media {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 13%;
+    padding-left: 13%;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .logo > img {
+    width: 90px;
+    height: 80px;
+  }
+
+  .navi-menu {
+    display: flex;
+    gap: 50px;
+  }
+
+  .navi-link {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .main-desk {
+    padding-top: 5px;
+    padding-bottom: 100px;
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hello,
+  .main-header {
+    color: #ec5242;
+    margin-left: 13%;
+    margin-right: 13%;
+    border: 1px solid #d3d3d3;
+  }
+
+  .hello {
+    font-size: 25px;
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .main-header {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .info,
+  address {
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+
+  .info {
+    font-size: 25px;
+    color: #fff;
+    border: 1px solid #d3d3d3;
+  }
+
+  address {
+    font-size: 30px;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+  }
+
+  address > a {
+    font-size: 25px;
+    color: #d3d3d3;
+  }
+
+  .comp-title {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .comp-break {
+    margin-left: 45%;
+    margin-right: 45%;
+    border: 1px solid #ec5242;
+    margin-bottom: 50px;
+  }
+
+  .comp-detail {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .comp-time > img {
+    margin-left: 38%;
+    border: 1px solid #d3d3d3;
+  }
+
+  .compitition {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+  .visit {
+    padding-bottom: 30px;
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  .break {
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 1px solid #ec5242;
+    margin-bottom: 50px;
+  }
+
+  .past-detail {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 30px;
+  }
+
+  .cont {
+    display: flex;
+    gap: 25px;
+  }
+
+  .cont1,
+  .cont2 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 35px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .cont1 {
+    background-image: linear-gradient(
+        rgba(255, 0, 0, 0.5),
+        rgba(255, 0, 0, 0.5)
+      ),
+      url("./images/Gonder.jpg");
+    transition: all 0.5s ease-in-out;
+  }
+
+  .cont2 {
+    background-image: linear-gradient(
+        rgba(255, 0, 0, 0.5),
+        rgba(255, 0, 0, 0.5)
+      ),
+      url("./images/Hawassa.jpg");
+    transition: all 0.5s ease-in-out;
+  }
+
+  .cont1:hover,
+  .cont2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  .past-festives {
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+  }
+
+  .place-year {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .place-year > h2 {
+    font-size: 35px;
+    color: #fff;
+  }
+
+  .place-year > p {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .partner-cont {
+    display: none;
+  }
+
+  /* .partner-cont {
+    padding-bottom: 50px;
+    background-color: #272a31;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+
+  .partner-heading {
+    padding-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+    color: #d3d3d3;
+    font-size: 35px;
+  }
+
+  .partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .partners2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+    justify-content: center;
+  }
+
+  .partners-icon {
+    width: 100px;
+  } */
+
+  footer {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    background-color: #272a31;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .footer-img {
+    width: 20%;
+    height: 130px;
+  }
+
+  footer > h5 {
+    font-size: 25px;
+    color: gray;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   body {
     margin: 0;
@@ -213,6 +498,7 @@
         rgba(255, 0, 0, 0.5)
       ),
       url("./images/Gonder.jpg");
+    transition: all 0.5s ease-in-out;
   }
 
   .cont2 {
@@ -221,6 +507,12 @@
         rgba(255, 0, 0, 0.5)
       ),
       url("./images/Hawassa.jpg");
+    transition: all 0.5s ease-in-out;
+  }
+
+  .cont1:hover,
+  .cont2:hover {
+    transform: scale(1.1);
   }
 
   .past-festives {
@@ -281,6 +573,11 @@
 
   .partners-icon {
     width: 100px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .partners-icon:hover {
+    transform: scale(1.1);
   }
 
   footer {

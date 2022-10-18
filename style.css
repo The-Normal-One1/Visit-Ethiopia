@@ -24,7 +24,6 @@
 
   .social-media {
     color: #fff;
-    /* font-size: 20px; */
     text-decoration: none;
   }
 
@@ -39,12 +38,11 @@
     padding-left: 13%;
     align-items: center;
     margin-top: 0;
-    /* background-color: #d3d3d3; */
   }
 
   .logo > img {
     width: 90px;
-    height: 90px;
+    height: 80px;
   }
 
   .navi-menu {
@@ -139,8 +137,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    /* margin-left: 20px; */
-    /* margin-right: 10px; */
     background-color: #d3d3d3;
     gap: 10px;
     color: #272a31;
@@ -190,6 +186,66 @@
   .join-desk:hover {
     background-color: #d3d3d3;
     color: #ec5242;
+  }
+
+  .partner-cont {
+    padding-bottom: 50px;
+    background-color: #272a31;
+  }
+
+  .partner-heading {
+    padding-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+    color: #d3d3d3;
+    font-size: 35px;
+  }
+
+  .partners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .partners2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+    justify-content: center;
+  }
+
+  .partners-icon {
+    width: 100px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .partners-icon:hover {
+    transform: scale(1.2);
+  }
+
+  footer {
+    /* margin-top: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    background-color: #d3d3d3;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .footer-img {
+    width: 20%;
+    height: 130px;
+  }
+
+  footer > h5 {
+    font-size: 25px;
+    color: gray;
   }
 }
 
@@ -399,7 +455,6 @@
   }
 
   .join {
-    /* margin-top: 100px; */
     color: #d3d3d3;
     background: #ec5242;
     text-align: center;
@@ -409,7 +464,11 @@
     border: none;
   }
 
-  .join:hover {
-    cursor: pointer;
+  .partner-cont {
+    display: none;
+  }
+
+  footer {
+    display: none;
   }
 }
