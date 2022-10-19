@@ -79,7 +79,6 @@
     color: #ec5242;
     margin-left: 13%;
     margin-right: 13%;
-    border: 1px solid #d3d3d3;
   }
 
   .hello {
@@ -99,6 +98,7 @@
 
   .info {
     font-size: 25px;
+    padding: 20px;
     color: #d3d3d3;
     border: 1px solid #d3d3d3;
   }
@@ -413,7 +413,6 @@
     color: #ec5242;
     margin-left: 30px;
     margin-right: 10px;
-    border: 1px solid #d3d3d3;
   }
 
   .hello {
@@ -433,7 +432,7 @@
 
   .info {
     font-size: 22px;
-    padding: 5px;
+    padding: 25px;
     color: #d3d3d3;
     border: 1px solid #d3d3d3;
   }
