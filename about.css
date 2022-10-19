@@ -185,7 +185,8 @@
   }
 
   .cont1 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -194,7 +195,8 @@
   }
 
   .cont2 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -467,7 +469,8 @@
   }
 
   .cont1 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -476,7 +479,8 @@
   }
 
   .cont2 {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),

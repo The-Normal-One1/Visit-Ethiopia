@@ -42,7 +42,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- Cindy Shin in Behance for the orginal design idea.
+- [Cindy Shin](https://www.behance.net/adagio07) in Behance for the orginal [design idea.](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - etc
 
 ## 📝 License
