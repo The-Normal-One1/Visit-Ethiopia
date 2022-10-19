@@ -48,12 +48,22 @@
 
   .navi-menu {
     display: flex;
-    gap: 50px;
+    gap: 30px;
   }
 
   .navi-link {
     text-decoration: none;
     color: #272a31;
+    padding: 10px;
+  }
+
+  .about,
+  .festive {
+    color: #ec5242;
+  }
+
+  .festive {
+    border: 4px solid #ec5242;
   }
 
   .main-desk {
