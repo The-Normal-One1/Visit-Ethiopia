@@ -148,7 +148,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    background-color: #d3d3d3;
+    background-color: #f8f6f6;
     gap: 10px;
     color: #272a31;
     transition: all 0.5s ease-in-out;
@@ -199,9 +199,57 @@
     color: #ec5242;
   }
 
+  .speakers {
+    background-color: #fff;
+  }
+
+  .title-speaker {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .personal-info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+    margin: 10%;
+  }
+
+  .single {
+    display: flex;
+    background-color: #f8f6f6;
+    background-image: url("./images/Chess.jpg");
+    background-size: 15%;
+    background-repeat: no-repeat;
+  }
+
+  .img-speaker {
+    width: 110px;
+    height: 110px;
+    padding: 15px;
+  }
+
+  .speeches {
+    padding: 10px;
+  }
+
+  .speech-title {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .profesion {
+    color: #ec5242;
+  }
+
+  .pro-break {
+    margin-right: 90%;
+  }
+
   .partner-cont {
     padding-bottom: 50px;
     background-color: #272a31;
+    opacity: 0.8;
   }
 
   .partner-heading {
@@ -433,7 +481,7 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 10px;
-    background-color: gray;
+    background-color: #f8f6f6;
     transition: all 0.5s ease-in-out;
   }
 
@@ -459,6 +507,7 @@
   .experience-detail {
     font-size: 18px;
     margin: 0;
+    color: #272a31;
   }
 
   .join-desk {
