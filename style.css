@@ -1,3 +1,331 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "lato", sans-serif;
+}
+
+header {
+  display: none;
+}
+
+.nav-desk {
+  display: none;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: fixed;
+}
+
+.logo {
+  display: none;
+}
+
+.navi-menu {
+  display: flex;
+  list-style-type: none;
+  position: fixed;
+  gap: 30px;
+  left: -100%;
+  height: 100%;
+  top: 3rem;
+  flex-direction: column;
+  background-color: #3c3a39;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  margin-top: 10px;
+}
+
+.navi-menu.active {
+  left: 0;
+}
+
+.navi-link {
+  color: #fff5e1;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 16px;
+  margin-top: 30px;
+  border-bottom: 1px solid #6f6c6b;
+  margin-left: 24px;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: red;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: red;
+}
+
+.main {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 100px;
+  background: #dfdfdf;
+}
+
+.hello,
+.main-header {
+  color: #ec5242;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.hello {
+  font-size: 22px;
+  margin-top: 80px;
+}
+
+.main-header {
+  font-size: 40px;
+}
+
+.info,
+.time {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.info {
+  font-size: 22px;
+  padding: 25px;
+  border: 1px solid #d3d3d3;
+}
+
+.interval {
+  font-size: 30px;
+}
+
+.place {
+  font-size: 22px;
+}
+
+.visit {
+  border: 1px solid #d3d3d3;
+  background-color: #22252d;
+  color: #d3d3d3;
+  padding-bottom: 70px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 75px;
+  font-size: 30px;
+}
+
+.break {
+  margin-left: 40%;
+  margin-right: 40%;
+  border: 1px solid #ec5242;
+  margin-bottom: 50px;
+}
+
+.full-information {
+  margin-bottom: 75px;
+}
+
+.cultural {
+  display: grid;
+  grid-template-columns: 28% 25% 47%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  background-color: #36393f;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #d3d3d3;
+  padding: 1em;
+}
+
+.cultural:hover {
+  transform: scale(1.1);
+  border: 2px solid #fff;
+}
+
+.cultural > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.experience-heading {
+  margin-left: 15px;
+  color: #ec5242;
+  margin-right: 2px;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.experience-detail {
+  padding: 5px;
+  font-size: 18px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.join-desk {
+  display: none;
+}
+
+.join {
+  color: #d3d3d3;
+  background: #ec5242;
+  text-align: center;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: none;
+}
+
+.speakers {
+  background-color: #fff;
+}
+
+.title-speaker {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 5%;
+}
+
+.single {
+  display: flex;
+  background-color: #f8f6f6;
+  background-image: url("./images/Chess.jpg");
+  background-size: 15%;
+  background-repeat: no-repeat;
+}
+
+.img-speaker {
+  width: 110px;
+  height: 110px;
+  padding: 15px;
+}
+
+.speeches {
+  padding: 10px;
+}
+
+.speech-title {
+  font-size: 30px;
+  margin: 0;
+}
+
+.profesion {
+  color: #ec5242;
+}
+
+.pro-break {
+  margin-right: 90%;
+}
+
+.partner-cont {
+  padding-bottom: 50px;
+  background-color: #272a31;
+  /* margin-left: 30px;
+  margin-right: 20px; */
+}
+
+.partner-heading {
+  padding-top: 50px;
+  margin-left: 20px;
+  text-align: center;
+  color: #d3d3d3;
+  font-size: 35px;
+}
+
+.break-partner {
+  margin-left: 45%;
+  margin-right: 45%;
+  border: 1px solid #ec5242;
+  margin-bottom: 50px;
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.partners2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10%;
+  justify-content: center;
+}
+
+.partners-icon {
+  width: 100px;
+  transition: all 0.5s ease-in-out;
+}
+
+.partners-icon:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.footer-img {
+  width: 20%;
+  height: auto;
+}
+
+footer > h5 {
+  font-size: 25px;
+  color: gray;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     padding: 0;
@@ -5,7 +333,14 @@
     font-family: "lato", sans-serif;
   }
 
+  .main {
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+  }
+
   header {
+    display: block;
     background-color: #272a31;
   }
 
@@ -27,11 +362,11 @@
     text-decoration: none;
   }
 
-  .hamburger {
+  .nav {
     display: none;
   }
 
-  .nav {
+  .nav-desk {
     display: flex;
     justify-content: space-between;
     padding-right: 13%;
@@ -41,17 +376,17 @@
     background-color: #d3d3d3;
   }
 
-  .logo > img {
+  .logo-desk > img {
     width: 90px;
     height: 80px;
   }
 
-  .navi-menu {
+  .navi-menu-desk {
     display: flex;
-    gap: 50px;
+    gap: 30px;
   }
 
-  .navi-link {
+  .navi-link-desk {
     text-decoration: none;
     color: #272a31;
     padding: 10px;
@@ -66,15 +401,10 @@
     border: 4px solid #ec5242;
   }
 
-  .main-desk {
-    padding-top: 5px;
-    padding-bottom: 100px;
-    background: #dfdfdf;
-  }
-
   .hello,
-  .main-header {
-    color: #ec5242;
+  .main-header,
+  .info,
+  .time {
     margin-left: 13%;
     margin-right: 13%;
   }
@@ -86,12 +416,6 @@
 
   .main-header {
     font-size: 45px;
-  }
-
-  .info,
-  .time {
-    margin-left: 13%;
-    margin-right: 13%;
   }
 
   .info {
@@ -108,32 +432,15 @@
     font-size: 25px;
   }
 
-  .visit {
-    border: 1px solid #d3d3d3;
-    background-color: #22252d;
-    color: #d3d3d3;
-    padding-bottom: 70px;
-  }
-
   .title {
-    text-align: center;
-    margin-top: 75px;
     font-size: 33px;
-  }
-
-  .break {
-    margin-left: 40%;
-    margin-right: 40%;
-    border: 1px solid #ec5242;
-    margin-bottom: 50px;
   }
 
   .full-information {
     display: flex;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 3%;
+    margin-left: 3%;
     margin-bottom: 70px;
-    gap: 10px;
   }
 
   .cultural {
@@ -146,34 +453,6 @@
     gap: 10px;
     color: #272a31;
     transition: all 0.5s ease-in-out;
-  }
-
-  .cultural:hover {
-    transform: scale(1.1);
-    border: 2px solid #fff;
-  }
-
-  .cultural > img {
-    max-width: 100%;
-    height: 150px;
-  }
-
-  .experience-heading {
-    margin-left: 15px;
-    color: #ec5242;
-    margin-right: 2px;
-    font-size: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
-  }
-
-  .experience-detail {
-    padding: 5px;
-    font-size: 18px;
-    margin: 0;
-    color: #fff;
-    text-align: center;
   }
 
   .join {
@@ -195,424 +474,10 @@
     color: #ec5242;
   }
 
-  .speakers {
-    background-color: #fff;
-  }
-
-  .title-speaker {
-    text-align: center;
-    padding-top: 20px;
-  }
-
   .personal-info {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 30px;
     margin: 10%;
-  }
-
-  .single {
-    display: flex;
-    background-color: #f8f6f6;
-    background-image: url("./images/Chess.jpg");
-    background-size: 15%;
-    background-repeat: no-repeat;
-  }
-
-  .img-speaker {
-    width: 110px;
-    height: 110px;
-    padding: 15px;
-  }
-
-  .speeches {
-    padding: 10px;
-  }
-
-  .speech-title {
-    font-size: 30px;
-    margin: 0;
-  }
-
-  .profesion {
-    color: #ec5242;
-  }
-
-  .pro-break {
-    margin-right: 90%;
-  }
-
-  .partner-cont {
-    padding-bottom: 50px;
-    background-color: #272a31;
-    opacity: 0.8;
-  }
-
-  .partner-heading {
-    padding-top: 50px;
-    margin-left: 20px;
-    text-align: center;
-    color: #d3d3d3;
-    font-size: 35px;
-  }
-
-  .partners {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10%;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  .partners2 {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 10%;
-    justify-content: center;
-  }
-
-  .partners-icon {
-    width: 100px;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .partners-icon:hover {
-    transform: scale(1.2);
-  }
-
-  footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #d3d3d3;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-  .footer-img {
-    width: 20%;
-    height: 130px;
-  }
-
-  footer > h5 {
-    font-size: 25px;
-    color: gray;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: "lato", sans-serif;
-  }
-
-  header {
-    display: none;
-  }
-
-  .nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    position: fixed;
-  }
-
-  .logo {
-    display: none;
-  }
-
-  .navi-menu {
-    display: flex;
-    list-style-type: none;
-    position: fixed;
-    gap: 30px;
-    left: -100%;
-    height: 100%;
-    top: 3rem;
-    flex-direction: column;
-    background-color: #3c3a39;
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-    margin-top: 10px;
-  }
-
-  .navi-menu.active {
-    left: 0;
-  }
-
-  .navi-link {
-    color: #fff5e1;
-    font-family: "Inter", sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
-    text-decoration: none;
-    text-align: left;
-    padding-left: 16px;
-    margin-top: 30px;
-    border-bottom: 1px solid #6f6c6b;
-    margin-left: 24px;
-  }
-
-  .hamburger {
-    display: block;
-    cursor: pointer;
-    margin-left: 30px;
-  }
-
-  .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px 5px;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: black;
-  }
-
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-    background-color: #fff;
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-    background-color: #fff;
-  }
-
-  .main {
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 100px;
-    background: #dfdfdf;
-  }
-
-  .hello,
-  .main-header {
-    color: #ec5242;
-    margin-left: 30px;
-    margin-right: 10px;
-  }
-
-  .hello {
-    font-size: 22px;
-    margin-top: 80px;
-  }
-
-  .main-header {
-    font-size: 40px;
-  }
-
-  .info,
-  .time {
-    margin-left: 30px;
-    margin-right: 10px;
-  }
-
-  .info {
-    font-size: 22px;
-    padding: 25px;
-    border: 1px solid #d3d3d3;
-  }
-
-  .interval {
-    font-size: 30px;
-  }
-
-  .place {
-    font-size: 22px;
-  }
-
-  .visit {
-    border: 1px solid #d3d3d3;
-    background-color: #22252d;
-    color: #d3d3d3;
-    padding-bottom: 70px;
-  }
-
-  .title {
-    text-align: center;
-    margin-top: 75px;
-    font-size: 30px;
-  }
-
-  .break {
-    margin-left: 40%;
-    margin-right: 40%;
-    border: 1px solid #ec5242;
-    margin-bottom: 50px;
-  }
-
-  .full-information {
-    margin-bottom: 75px;
-  }
-
-  .cultural {
-    display: grid;
-    grid-template-columns: 28% 25% 47%;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 10px;
-    background-color: #36393f;
-    transition: all 0.5s ease-in-out;
-    border: 1px solid #d3d3d3;
-    padding: 1em;
-  }
-
-  .cultural:hover {
-    transform: scale(1.1);
-    border: 2px solid #fff;
-  }
-
-  .cultural > img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .experience-heading {
-    margin-left: 15px;
-    color: #ec5242;
-    margin-right: 2px;
-    font-size: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .experience-detail {
-    font-size: 18px;
-    margin: 0;
-    color: #fff;
-  }
-
-  .join-desk {
-    display: none;
-  }
-
-  .join {
-    color: #d3d3d3;
-    background: #ec5242;
-    text-align: center;
-    padding: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
-    border: none;
-  }
-
-  .speakers {
-    background-color: #fff;
-  }
-
-  .title-speaker {
-    text-align: center;
-    padding-top: 20px;
-  }
-
-  .personal-info {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin: 5%;
-  }
-
-  .single {
-    display: flex;
-    background-color: #f8f6f6;
-    background-image: url("./images/Chess.jpg");
-    background-size: 15%;
-    background-repeat: no-repeat;
-  }
-
-  .img-speaker {
-    width: 110px;
-    height: 110px;
-    padding: 15px;
-  }
-
-  .speeches {
-    padding: 10px;
-  }
-
-  .speech-title {
-    font-size: 30px;
-    margin: 0;
-  }
-
-  .profesion {
-    color: #ec5242;
-  }
-
-  .pro-break {
-    margin-right: 90%;
-  }
-
-  .partner-cont {
-    padding-bottom: 50px;
-    background-color: #272a31;
-    margin-left: 30px;
-    margin-right: 20px;
-  }
-
-  .partner-heading {
-    padding-top: 50px;
-    margin-left: 20px;
-    text-align: center;
-    color: #d3d3d3;
-    font-size: 35px;
-  }
-
-  .partners {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  .partners2 {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 10%;
-    justify-content: center;
-  }
-
-  .partners-icon {
-    width: 100px;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .partners-icon:hover {
-    transform: scale(1.1);
-  }
-
-  footer {
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 20px;
-  }
-
-  .footer-img {
-    width: 20%;
-    height: auto;
-  }
-
-  footer > h5 {
-    font-size: 25px;
-    color: gray;
   }
 }
