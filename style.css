@@ -69,9 +69,7 @@
   .main-desk {
     padding-top: 5px;
     padding-bottom: 100px;
-    background-image: url("./images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #dfdfdf;
   }
 
   .hello,
@@ -99,7 +97,6 @@
   .info {
     font-size: 25px;
     padding: 20px;
-    color: #d3d3d3;
     border: 1px solid #d3d3d3;
   }
 
@@ -109,11 +106,6 @@
 
   .place {
     font-size: 25px;
-  }
-
-  .place,
-  .interval {
-    color: #d3d3d3;
   }
 
   .visit {
@@ -405,9 +397,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 100px;
-    background-image: url("./images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #dfdfdf;
   }
 
   .hello,
@@ -435,7 +425,6 @@
   .info {
     font-size: 22px;
     padding: 25px;
-    color: #d3d3d3;
     border: 1px solid #d3d3d3;
   }
 
@@ -445,11 +434,6 @@
 
   .place {
     font-size: 22px;
-  }
-
-  .place,
-  .interval {
-    color: #d3d3d3;
   }
 
   .visit {
@@ -573,14 +557,6 @@
   .pro-break {
     margin-right: 90%;
   }
-
-  /* .partner-cont {
-    display: none;
-  } */
-
-  /* footer {
-    display: none;
-  } */
 
   .partner-cont {
     padding-bottom: 50px;
