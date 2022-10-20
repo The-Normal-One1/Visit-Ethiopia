@@ -185,8 +185,7 @@
   }
 
   .cont1 {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -195,8 +194,7 @@
   }
 
   .cont2 {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
@@ -469,23 +467,23 @@
   }
 
   .cont1 {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
       url("./images/Gonder.jpg");
     transition: all 0.5s ease-in-out;
+    z-index: -1;
   }
 
   .cont2 {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(255, 0, 0, 0.5),
         rgba(255, 0, 0, 0.5)
       ),
       url("./images/Hawassa.jpg");
     transition: all 0.5s ease-in-out;
+    z-index: -1;
   }
 
   .cont1:hover,
