@@ -118,7 +118,7 @@
 
   .visit {
     border: 1px solid #d3d3d3;
-    background-color: #272a31;
+    background-color: #22252d;
     color: #d3d3d3;
     padding-bottom: 70px;
   }
@@ -148,7 +148,9 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    background-color: #f8f6f6;
+    background-color: #36393f;
+    border: 1px solid #d3d3d3;
+    padding: 1em;
     gap: 10px;
     color: #272a31;
     transition: all 0.5s ease-in-out;
@@ -178,6 +180,7 @@
     padding: 5px;
     font-size: 18px;
     margin: 0;
+    color: #fff;
     text-align: center;
   }
 
@@ -190,8 +193,9 @@
     color: #d3d3d3;
     text-align: center;
     padding: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
+    display: flex;
+    margin-left: 35%;
+    margin-right: 30%;
   }
 
   .join-desk:hover {
@@ -450,7 +454,7 @@
 
   .visit {
     border: 1px solid #d3d3d3;
-    background-color: #272a31;
+    background-color: #22252d;
     color: #d3d3d3;
     padding-bottom: 70px;
   }
@@ -478,8 +482,10 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 10px;
-    background-color: #f8f6f6;
+    background-color: #36393f;
     transition: all 0.5s ease-in-out;
+    border: 1px solid #d3d3d3;
+    padding: 1em;
   }
 
   .cultural:hover {
@@ -504,7 +510,7 @@
   .experience-detail {
     font-size: 18px;
     margin: 0;
-    color: #272a31;
+    color: #fff;
   }
 
   .join-desk {
