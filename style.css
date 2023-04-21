@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "lato", sans-serif;
+  font-family: 'lato', sans-serif;
 }
 
 header {
@@ -49,7 +49,7 @@ header {
 
 .navi-link {
   color: #fff5e1;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -96,43 +96,45 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 100px;
-  background: #dfdfdf;
+  background-image: url('./images/bgimage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hello,
+.main-header,
+.info,
+.time {
+  margin-left: 13%;
+  margin-right: 13%;
 }
 
 .hello,
 .main-header {
-  color: #ec5242;
-  margin-left: 30px;
-  margin-right: 10px;
+  color: rgba(246, 19, 2, 1);
 }
 
 .hello {
-  font-size: 22px;
+  font-size: 25px;
   margin-top: 80px;
 }
 
 .main-header {
-  font-size: 40px;
-}
-
-.info,
-.time {
-  margin-left: 30px;
-  margin-right: 10px;
+  font-size: 43px;
 }
 
 .info {
   font-size: 22px;
   padding: 25px;
-  border: 1px solid #d3d3d3;
+  border: 3px solid #fff;
 }
 
 .interval {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .place {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .visit {
@@ -145,7 +147,7 @@ header {
 .title {
   text-align: center;
   margin-top: 75px;
-  font-size: 30px;
+  font-size: 31px;
 }
 
 .break {
@@ -232,7 +234,7 @@ header {
 .single {
   display: flex;
   background-color: #f8f6f6;
-  background-image: url("./images/Chess.jpg");
+  background-image: url('./images/Chess.jpg');
   background-size: 15%;
   background-repeat: no-repeat;
 }
@@ -325,12 +327,6 @@ footer > h5 {
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    padding: 0;
-    margin: 0;
-    font-family: "lato", sans-serif;
-  }
-
   .main {
     padding-left: 0;
     padding-top: 0;
@@ -371,7 +367,7 @@ footer > h5 {
     padding-left: 13%;
     align-items: center;
     margin-top: 0;
-    background-color: #d3d3d3;
+    background-color: #fff;
   }
 
   .logo-desk > img {
@@ -399,39 +395,9 @@ footer > h5 {
     border: 4px solid #ec5242;
   }
 
-  .hello,
-  .main-header,
-  .info,
-  .time {
-    margin-left: 13%;
-    margin-right: 13%;
-  }
-
-  .hello {
-    font-size: 25px;
-    margin-top: 80px;
-  }
-
-  .main-header {
-    font-size: 45px;
-  }
-
   .info {
     font-size: 25px;
     padding: 20px;
-    border: 1px solid #d3d3d3;
-  }
-
-  .interval {
-    font-size: 33px;
-  }
-
-  .place {
-    font-size: 25px;
-  }
-
-  .title {
-    font-size: 33px;
   }
 
   .full-information {
@@ -444,13 +410,7 @@ footer > h5 {
   .cultural {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    background-color: #36393f;
-    border: 1px solid #d3d3d3;
-    padding: 1em;
     gap: 10px;
-    color: #272a31;
-    transition: all 0.5s ease-in-out;
   }
 
   .join {
@@ -468,14 +428,13 @@ footer > h5 {
   }
 
   .join-desk:hover {
-    background-color: #d3d3d3;
+    background-color: #22252d;
     color: #ec5242;
   }
 
   .personal-info {
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 30px;
     margin: 10%;
   }
 }
