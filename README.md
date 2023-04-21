@@ -18,7 +18,24 @@ To get a local copy up and run git clone https://github.com/The-Normal-One1/Visi
 
 ### Open file in the VS code
 
+- Open your terminal
+- Choose the directory that you want to save your project
+- Clone the repository : Using SSH or HTTPS
 ### Run the index.html file on any browser
+
+### Prerequisites
+An operating system like Windows, MAC or Linux. 
+500MB of free storage available
+
+### Setup
+
+### Install
+
+### Usage
+
+### Run tests
+
+### Deployment
 
 ## Authors
 
