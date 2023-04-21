@@ -109,21 +109,7 @@ header {
 
 .hello,
 .main-header {
-  background-image:
-    linear-gradient(
-      to right,
-      #f11603,
-      #fa1402,
-      #91241b,
-      #f61302,
-      #f65112,
-      #f55715,
-      #f34d15
-    );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+  color: rgba(246, 19, 2, 1);
 }
 
 .hello {
