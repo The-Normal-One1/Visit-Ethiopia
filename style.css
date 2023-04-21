@@ -100,6 +100,14 @@ header {
 }
 
 .hello,
+.main-header,
+.info,
+.time {
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.hello,
 .main-header {
   background-image: linear-gradient(
     to right,
@@ -116,38 +124,29 @@ header {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  margin-left: 30px;
-  margin-right: 10px;
 }
 
 .hello {
-  font-size: 22px;
+  font-size: 25px;
   margin-top: 80px;
 }
 
 .main-header {
-  font-size: 40px;
-}
-
-.info,
-.time {
-  margin-left: 30px;
-  margin-right: 10px;
+  font-size: 43px;
 }
 
 .info {
   font-size: 22px;
   padding: 25px;
   border: 3px solid #fff;
-  /* background-color: #fff; */
 }
 
 .interval {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .place {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .visit {
@@ -160,7 +159,7 @@ header {
 .title {
   text-align: center;
   margin-top: 75px;
-  font-size: 30px;
+  font-size: 31px;
 }
 
 .break {
@@ -340,12 +339,6 @@ footer > h5 {
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    padding: 0;
-    margin: 0;
-    font-family: 'lato', sans-serif;
-  }
-
   .main {
     padding-left: 0;
     padding-top: 0;
@@ -414,39 +407,9 @@ footer > h5 {
     border: 4px solid #ec5242;
   }
 
-  .hello,
-  .main-header,
-  .info,
-  .time {
-    margin-left: 13%;
-    margin-right: 13%;
-  }
-
-  .hello {
-    font-size: 25px;
-    margin-top: 80px;
-  }
-
-  .main-header {
-    font-size: 45px;
-  }
-
   .info {
     font-size: 25px;
     padding: 20px;
-    border: 3px solid #fff;
-  }
-
-  .interval {
-    font-size: 33px;
-  }
-
-  .place {
-    font-size: 25px;
-  }
-
-  .title {
-    font-size: 33px;
   }
 
   .full-information {
@@ -459,13 +422,7 @@ footer > h5 {
   .cultural {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    background-color: #36393f;
-    border: 1px solid #d3d3d3;
-    padding: 1em;
     gap: 10px;
-    color: #272a31;
-    transition: all 0.5s ease-in-out;
   }
 
   .join {
@@ -483,14 +440,13 @@ footer > h5 {
   }
 
   .join-desk:hover {
-    background-color: #d3d3d3;
+    background-color: #22252d;
     color: #ec5242;
   }
 
   .personal-info {
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 30px;
     margin: 10%;
   }
 }
