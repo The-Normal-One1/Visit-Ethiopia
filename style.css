@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "lato", sans-serif;
+  font-family: 'lato', sans-serif;
 }
 
 header {
@@ -49,7 +49,7 @@ header {
 
 .navi-link {
   color: #fff5e1;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -96,12 +96,26 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 100px;
-  background: #dfdfdf;
+  background: #f7f7f7;
 }
 
 .hello,
 .main-header {
-  color: #ec5242;
+  background-image: linear-gradient(
+    to right,
+    #f11603,
+    #fa1402,
+    #91241b,
+    #f61302,
+    #f65112,
+    #f55715,
+    #f34d15
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
   margin-left: 30px;
   margin-right: 10px;
 }
@@ -124,7 +138,8 @@ header {
 .info {
   font-size: 22px;
   padding: 25px;
-  border: 1px solid #d3d3d3;
+  border: 3px solid #fff;
+  /* background-color: #fff; */
 }
 
 .interval {
@@ -232,7 +247,7 @@ header {
 .single {
   display: flex;
   background-color: #f8f6f6;
-  background-image: url("./images/Chess.jpg");
+  background-image: url('./images/Chess.jpg');
   background-size: 15%;
   background-repeat: no-repeat;
 }
@@ -328,7 +343,7 @@ footer > h5 {
   body {
     padding: 0;
     margin: 0;
-    font-family: "lato", sans-serif;
+    font-family: 'lato', sans-serif;
   }
 
   .main {
@@ -419,7 +434,7 @@ footer > h5 {
   .info {
     font-size: 25px;
     padding: 20px;
-    border: 1px solid #d3d3d3;
+    border: 3px solid #fff;
   }
 
   .interval {
