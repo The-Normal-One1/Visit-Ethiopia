@@ -43,8 +43,12 @@ address > a {
 }
 
 .comp-time > img {
-  margin-left: 25%;
+  display: block;
+  border-radius: 20px;
   border: 1px solid #d3d3d3;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .compitition {
@@ -130,6 +134,14 @@ address > a {
   margin-right: 20px;
 }
 
+.partners2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 8%;
+}
+
 @media only screen and (min-width: 768px) {
   .about,
   .festive {
@@ -156,9 +168,13 @@ address > a {
     font-size: 30px;
   }
 
-  .comp-time > img {
-    margin-left: 38%;
-  }
+  /* .comp-time > img {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
 
   .visits {
     margin-left: 8%;
